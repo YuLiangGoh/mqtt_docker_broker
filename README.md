@@ -10,11 +10,9 @@ A Docker server for MQTT broker. Here are the files for setting up a simple MQTT
 
 Notice that we have a [Dockerfile](Dockerfile) in our folder. In case of not understanding what is a [Dockerfile](Dockerfile) for.
 
-<br>
 
-```
-A Dockerfile is a text document that contains all of the commands that the user needs to run on the command line to build an image. A Dockerfile allows users to design an automated build that performs many command-line instructions in succession.
-```
+*A Dockerfile is a text document that contains all of the commands that the user needs to run on the command line to build an image. A Dockerfile allows users to design an automated build that performs many command-line instructions in succession.*
+
 
 <br>
 
