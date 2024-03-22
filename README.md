@@ -93,7 +93,7 @@ To support different configuration for the HiveMQ. Understand more by clicking t
 
 **How can i update the authentication username and password, including the roles?**
 
-You will need to manually navigate to the rbac extension that we download earlier. Look for the ***credential.xml*** and configure the file as you like. There is already a sample of 2 users and 2 roles.
+You'll have to manually navigate to the rbac extension we downloaded previously. Look for the ***credential.xml*** file and customise it to your liking. There is now a sample of two users and two roles.
 
 <br>
 
