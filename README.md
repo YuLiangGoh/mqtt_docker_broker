@@ -18,14 +18,11 @@ Notice that we have a [Dockerfile](Dockerfile) in our folder. In case of not und
 
 Next we need to understand, what is the lines doing in the Docker file.
 
-
 ```
 FROM hivemq/hivemq4:latest
 ```
 
 This line is to pull and download the latest version of hivemq image to our local.
-
-<br>
 
 ```
 COPY config.xml /opt/hivemq/conf/config.xml
@@ -39,9 +36,7 @@ COPY hivemq-file-rbac-extension/ /opt/hivemq/extensions/hivemq-file-rbac-extensi
 This is to copy the extension that supports user and password authentication for MQTT, which we will download later also.
 
 ### First Step :
-We will need to download the [HiveMQ Extension File RBAC extension](https://www.hivemq.com/products/extensions/file-rbac-extension/) file first where for providing authentication by user and password. 
-
-You can obtain the extension file from the website listed above, or you can download it by clicking [here](https://github.com/hivemq/hivemq-file-rbac-extension/releases/download/4.5.3/hivemq-file-rbac-extension-4.5.3.zip).
+We will need to download the [HiveMQ Extension File RBAC extension](https://www.hivemq.com/products/extensions/file-rbac-extension/) file first. You can obtain the extension file from the website listed above, or you can download it by clicking [here](https://github.com/hivemq/hivemq-file-rbac-extension/releases/download/4.5.3/hivemq-file-rbac-extension-4.5.3.zip).
 
 After that you will get a file name as **hivemq-file-rbac-extension**. Move the files into this project root folder. Such as:
 ```
@@ -50,7 +45,7 @@ mqtt_docker_broker
 |___Dockerfile
 |___LICENSE.md
 |___README.md
-|___hivemq-file-rbac-extension
+|___hivemq-file-rbac-extension (MOVE HERE!!)
 ```
 If the file names differ from this, you must manually update the docker file when copying the files into the container.
 
